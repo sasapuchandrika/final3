@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<string.h>
-#include"prototype.h"
-#include"buyer_prototype.h"
-#include"admin_prototype.h"
+#include"header.h"
+//#include"buyer_prototype.h"
+//#include"admin_prototype.h"
 
 void admin(seller_Details *seller_root , buyer_Details *buyer_root)
 {
