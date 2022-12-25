@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include"prototype.h"
-#include"buyer_prototype.h"
-#include"admin_prototype.h"
+#include"header.h"
+//#include"buyer_prototy.h"
+//#include"admin_prototype.h"
 
 
 
