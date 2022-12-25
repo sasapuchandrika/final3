@@ -2,6 +2,7 @@
 #include<stdio.h>
 #define BUFFER_SIZE 1000
 
+//seller structutre
 typedef struct seller_Details
 {
         int id;
@@ -31,6 +32,7 @@ typedef struct seller_Details
         struct seller_Details *next;
 }seller_Details;
 
+//product structure
 typedef struct product_details
 {
 	int product_id ;
@@ -45,8 +47,7 @@ typedef struct product_details
 
 
 
-
-
+//functions of seller 
 seller_Details *  price_check(product_details * ,seller_Details *);
 seller_Details *create_lisr_of_seller(seller_Details *,seller_Details);
 seller_Details *file_to_list(seller_Details *);
@@ -63,6 +64,8 @@ void check_the_buyer_request(seller_Details *);
 
 seller_Details * login(seller_Details *);
 int new_registration_to_file();
+
+//functions of product
 
 product_details *product_registration(product_details *);
 
