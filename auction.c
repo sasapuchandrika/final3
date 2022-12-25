@@ -2,7 +2,6 @@
 #include<string.h>
 #include"header.h"
 
-
 void auction_for_product(product_details *prod_root , seller_Details *seller_root , buyer_Details *buyer_root)
 {
 	seller_Details *sller_id = NULL;
